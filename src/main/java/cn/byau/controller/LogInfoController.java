@@ -48,7 +48,7 @@ public class LogInfoController {
         hm.put("startTime",startTime);
         hm.put("endTime",endTime);
         
-        System.out.println("xxxx="+startTime);
+        System.out.println("xxxxaaaaaaaaaaaa="+startTime);
         System.out.println("yyyyyyyyyyyyyy"+endTime);
         
         List<LogInfo> userList = logInfoService.list(hm);//获取所有用户信息
