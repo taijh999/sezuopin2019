@@ -27,6 +27,7 @@ import cn.byau.util.Result;
 
 /**
  * Created by tjh on 2017/5/13.
+ * tijiao github 2019.5.30
  */
 @Controller
 @RequestMapping("/course")
