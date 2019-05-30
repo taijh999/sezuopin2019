@@ -42,7 +42,7 @@ public class UserController {
 
 		User user = userService.getUserByUserNameAndPassword(map);
 		if (user == null) {
-			session.setAttribute("msg", "用户名或密码错误");
+			session.setAttribute("msg", "username or password error");
 			return "redirect:loginPage.action";
 			// response.sendRedirect("jsp/index.jsp");
 		} else {
